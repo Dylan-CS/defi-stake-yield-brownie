@@ -5,6 +5,7 @@
 3. getUserTotalValue: Get the total value that users have supplied based on calculations from the Chainlink Price Feeds.
 4. issueTokens: Issue a reward to the users staking on your platform!
 
+Smart contract:
 1. ERC-20_TOKEN DappToken:'0xEeD0900B2b6b9C2b656C0C26c7130fD8e56868D7"
 2. ERC-20_TOKEN WETH:"0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6"
 3. ERC-20_TOKEN fau/(DAI):"0xBA62BCfcAaFc6622853cca2BE6Ac7d845BC0f2Dc"
