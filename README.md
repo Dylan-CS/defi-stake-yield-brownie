@@ -23,15 +23,15 @@ Preparations:
 
 Steps to start this project 
 1. git clone https://github.com/Dylan-CS/defi-stake-yield-brownie.git
-2. Add a file named .env
-Here is its content:
-export WEB3_ALCHEMY_PROJECT_ID= rPgRgEqPogUQ_giz5IyzX_PhegVYiXdl(this is the goerli node of alchemy)
-export PRIVATE_KEY= your private key of metamask
-export ETHERSCAN_TOKEN= etherscan token 
+2. Add a file named .env  
+Here is its content:  
+export WEB3_ALCHEMY_PROJECT_ID= rPgRgEqPogUQ_giz5IyzX_PhegVYiXdl(this is the goerli node of alchemy)  
+export PRIVATE_KEY= your private key of metamask  
+export ETHERSCAN_TOKEN= etherscan token  
 3. Run the command "brownie compile" to compile the smart contract.
-4. Run the command "brownie test" to test whether smart contract can work correctly in local environment.
+4. Run the command "brownie test" to test whether smart contract can work correctly in local environment.  
 Note: If you want to deploy Smart contract yourself,change the configuration in step 2 and run the command "brownie run scripts/deploy.py  --network goerli"
-5. "cd front_end" "yarn"(download the node_modules) "yarn start"
-Note1: If you can't yarn start, run the command $env:NODE_OPTIONS = "--openssl-legacy-provider"
-Note2: the configuration of React---front_end\src\brownie-config.json,front_end\src\helper-config.json
+5. "cd front_end" "yarn"(download the node_modules) "yarn start"  
+Note1: If you can't yarn start, run the command $env:NODE_OPTIONS = "--openssl-legacy-provider"  
+Note2: the configuration of React---front_end\src\brownie-config.json,front_end\src\helper-config.json  
 6. open browser and enter http://localhost:3000/ to check the website.
