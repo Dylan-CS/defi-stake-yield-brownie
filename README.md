@@ -23,8 +23,7 @@ Preparations:
 
 Steps to start this project 
 1. `git clone https://github.com/Dylan-CS/defi-stake-yield-brownie.git`
-2. Add a file named `.env `  
-Here is its content:
+2. Add a file named `.env `. Here is its content:
 ```
 export WEB3_ALCHEMY_PROJECT_ID= rPgRgEqPogUQ_giz5IyzX_PhegVYiXdl(this is the goerli node of alchemy)  
 export PRIVATE_KEY= your private key of metamask      
