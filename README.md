@@ -36,3 +36,7 @@ Note: If you want to deploy Smart contract yourself,change the configuration in 
 Note1: If you can't yarn start, run the command `$env:NODE_OPTIONS = "--openssl-legacy-provider"  `  
 Note2: the configuration of React---front_end\src\brownie-config.json,front_end\src\helper-config.json  
 6. open browser and enter http://localhost:3000/ to check the website.
+
+
+UPdate:
+contract of Faucet: `0xd011033ec6b1f5bcf9be454344E40d7C04e8573D`  
