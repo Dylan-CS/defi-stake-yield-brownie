@@ -1,4 +1,4 @@
-#defi-stake-yield-brownie
+# defi-stake-yield-brownie
 
 1. stakeTokens: Add any approved token to the farming contract for yeild farming, collateral, or whatever you want to do.
 2. unStakeTokens: Remove your tokens from the contract.
